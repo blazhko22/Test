@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    width: 100%;
+    flex-grow: 1;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    background: rgb(149, 194, 215);
+    text-align: center;
+    z-index: 999;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    padding-top: 90px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    min-height: 100%;
+    max-width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: rgb(255, 17, 17);
+    margin-right: 20px;
+}
+
+.content {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    background: rgb(187, 179, 135);
+    text-align: center;
+    align-self: flex-start;
+}
+
+.footer {
+    
+    width: 100%;
+    padding: 30px;
+    background: rgb(27, 83, 110);
+    text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+    .box {
+        position: relative;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 0;
+    }
+    .content {
+        position: absolute;
+        display: flex;
+        margin: 20px;
+        top: 69px;
+        width: 100%;
+        height: calc(100% - 80px);
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .sidebar {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar {
+        width: 300px;
+    }
+   }
+
+@media screen and (min-width: 1200px) {
+    .box {
+        width: 1200px;
+    }
+    .sidebar {
+        width: 350px;
+    }
+}
