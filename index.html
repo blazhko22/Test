@@ -11,28 +11,40 @@
 </head>
 <body>    
          <!-- Шапка -->
+        <div class="header__language">
+                    <ul class="header__language-box">
+                        <li class="header__language-list">Eng</li>
+                        <li class="header__language-list">Aze</li>
+                        <li class="header__language-list">Рус</li>
+                    </ul>
+        </div>      
         <header class="header">
             <div class="container header__container">
-                <div>
-                    <button>Eng</button>
-                    <button>Aze</button>
-                    <button>Рус</button>
-                </div>
-                <div>
-                    <div>
+                <div class="header__box">
+                    <div class="header__box-link">
                         <a href="./index.html" class="header__link-logo">Logo</a>
                     </div>
-                    <div>
-                        <ul>
-                            <li>lorem ipsum dolor sit</li>
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum dolor</li>
-                            <li>lorem ipsum dolor sit amet, consectetur adipiscing</li>
-                            <li>lorem ipsum dolor</li>
-                            <li>lorem ipsum dolor sit</li>
-                        </ul>
-                    </div>
+                    <ul class="header__box-list">
+                        <li class="header__box-item">lorem ipsum dolor sit</li>
+                        <li class="header__box-item">lorem ipsum</li>
+                        <li class="header__box-item">lorem ipsum dolor</li>
+                        <li class="header__box-item">lorem ipsum dolor sit amet, consectetur adipiscing</li>
+                        <li class="header__box-item">lorem ipsum dolor</li>
+                        <li class="header__box-item">lorem ipsum dolor sit</li>
+                    </ul>
                 </div>
+                <button
+                    class="menu-toggle js-open-menu"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                >
+                    <svg
+                        width="40"
+                        height="40"
+                    >
+                        <use href="./img/icons.svg#icon-menu"></use>
+                    </svg>
+                </button>
                 <ul>
                     <li>пункт меню</li>
                     <li>длинный пункт меню</li>

@@ -1,3 +1,25 @@
-// @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
-@import "../../fonts/arial/stylesheet.css";
-@import "../../fonts/roboto/stylesheet.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../../fonts/arial/ArialMT.eot');
+    src: local('../../fonts/arial/Arial'), local('ArialMT'),
+        url('../../fonts/arial/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/arial/ArialMT.woff2') format('woff2'),
+        url('../../fonts/arial/ArialMT.woff') format('woff'),
+        url('../../fonts/arial/ArialMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('../../fonts/arial/ArialNarrow-Bold.eot');
+    src: local('../../fonts/arial/Arial Narrow Bold'), local('ArialNarrow-Bold'),
+        url('../../fonts/arial/ArialNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/arial/ArialNarrow-Bold.woff2') format('woff2'),
+        url('../../fonts/arial/ArialNarrow-Bold.woff') format('woff'),
+        url('../../fonts/arial/ArialNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

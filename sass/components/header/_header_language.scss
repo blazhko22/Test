@@ -1,0 +1,28 @@
+.header__language {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: $extra-bg-color;
+    padding: 8px 20px;
+}
+.header__language-box {
+    display: flex;
+    justify-content: end;
+    width: 480px;
+}
+.header__language-list {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    background-color: $background-color;
+    margin-right: 5px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    &:last-child {
+        margin-right: 0;
+    }
+    &:hover {
+        color: $extra-text-color;
+        background-color: $hover-color;
+    }
+}
