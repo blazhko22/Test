@@ -12,7 +12,7 @@
     transition: transform 250ms ease-in-out;
 }
   
-  .menu-container.is-open {
+.menu-container.is-open {
     transform: translateX(0);
 }
 .menu-toggle {
@@ -34,25 +34,18 @@
 }
 .mobile-list {
     display: flex;
-    margin-top: 64px;
-    margin-left: auto;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
 }
 .mobile-social {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-  &:first-child {
-      padding-left: 0;
-  }
-  &:last-child {
-      border-right: none;
-  }
-}
-.mobile-link {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: $secondary-bg-color;
+    margin-bottom: 5px;
+    padding: 10px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &:hover {
+        color: $hover-color;
+    }
 }

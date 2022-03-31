@@ -1,3 +1,8 @@
+.button-menu-toggle {
+  width: 100%;
+  max-width: 480px;
+  background-color: $secondary-bg-color;
+}
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -6,9 +11,13 @@
     justify-content: center;
   
     margin-top: 10px;
-    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
     padding: 0;
+    color: white;
+    fill: white;
+    font-size: 20px;
+    text-transform: uppercase;
     background-color: transparent;
     cursor: pointer;
     border: none;
@@ -23,4 +32,8 @@
 .menu-toggle:hover,
 .menu-toggle:focus {
   fill: $hover-color;
+  color: $hover-color;
+}
+.svg {
+  margin-right: 15px;
 }

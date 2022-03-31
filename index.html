@@ -51,24 +51,28 @@
                         </li>
                     </ul>
                 </div>
-                <button
-                    class="menu-toggle js-open-menu"
-                    aria-expanded="false"
-                    aria-controls="mobile-menu"
-                >
-                    <svg
-                        width="40"
-                        height="40"
+                <div class="button-menu-toggle">
+                    <button
+                        class="menu-toggle js-open-menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-menu"
                     >
-                        <use href="./img/icons.svg#icon-menu"></use>
-                    </svg>
-                </button>
-                <ul>
-                    <li>пункт меню</li>
-                    <li>длинный пункт меню</li>
-                    <li>очень длинный пункт меню</li>
-                    <li>еще меню</li>
-                    <li>п. меню</li>
+                        <svg
+                            class="svg"
+                            width="40"
+                            height="40"
+                        >
+                            <use href="./img/icons.svg#icon-menu"></use>
+                        </svg>
+                        <p>меню</p>
+                    </button>
+                </div>
+                <ul class="header__list">
+                    <li class="header__list-item">пункт меню</li>
+                    <li class="header__list-item">длинный пункт меню</li>
+                    <li class="header__list-item">очень длинный пункт меню</li>
+                    <li class="header__list-item">еще меню</li>
+                    <li class="header__list-item">п. меню</li>
                 </ul>
             </div>
         </header>  
@@ -441,55 +445,25 @@
         </footer> 
         <div class="menu-container js-menu-container" id="mobile-menu">
             <button class="menu-toggle js-close-menu">
+                <p class="svg">меню</p>
               <svg
+                
                 width="40"
                 height="40"
               >
                 <use href="./img/icons.svg#icon-close"></use>
               </svg>
+              
             </button>
-      
             <div class="mobile-menu">
-                <nav class="header__nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-roster header__nav-line"><a href="./index.html" class="header__nav-link header__general-link">Студия</a></li>
-                        <li class="header__nav-roster"><a href="./portfolio.html" class="header__nav-link">Портфолио</a></li>
-                        <li class="header__nav-roster"><a href="./contact.html" class="header__nav-link">Контакты</a></li>
-                    </ul>
-                </nav>
-                <ul class="header__info-list">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="header__info-link">                            
-                            <svg class="header__info-icon" width="16" height="12">
-                                <use href="./img/icons.svg#icon-envelope"></use>
-                            </svg>
-                            info@devstudio.com
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="tel:+380961111111" class="header__info-link">                            
-                            <svg class="header__info-icon" width="10" height="16">
-                                <use href="./img/icons.svg#icon-phone"></use>
-                            </svg>
-                            +38 096 111 11 11
-                        </a>
-                    </li>              
+                <ul class="mobile-list">
+                    <li class="mobile-social">пункт меню</li>
+                    <li class="mobile-social">длинный пункт меню</li>
+                    <li class="mobile-social">очень длинный пункт меню</li>
+                    <li class="mobile-social">еще меню</li>
+                    <li class="mobile-social">п. меню</li>
                 </ul>
             </div>
-            <ul class="mobile-list">
-                <li class="mobile-social">
-                    <a href="" class="mobile-link">Instagram</a>
-                </li>
-                <li class="mobile-social">
-                    <a href="" class="mobile-link">Twitter</a>
-                </li>
-                <li class="mobile-social">
-                    <a href="" class="mobile-link">Facebook</a>
-                </li>
-                <li class="mobile-social">
-                    <a href="" class="mobile-link">LinkedIn</a>
-                </li>
-            </ul> 
           </div>
         <script src="./js/modal.js"></script> 
         <script
