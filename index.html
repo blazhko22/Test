@@ -78,83 +78,96 @@
         </header>  
         <!-- Текст --> 
         <main>
-            <!-- Секция Герой -->
-            <section class="hero">
-                <div class="container">
-                    <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                    <button type="button" class="hero__button" data-modal-open>Заказать услугу</button> 
+            <!-- Секция -->
+            <section class="registration">
+                <div class="container registration__container">
+                    <div class="registration__box">
+                        <form class="registration__box-form">
+                            <h2 class="registration__box-form-title">Form</h2>
+                            <label class="registration__box-form-label">
+                                <span>Label #1</span> 
+                                <input type="email" name="email" required />
+                            </label>
+                            <div class="registration__box-form-container">
+                                <div class="registration__box-form-block">
+                                    <label class="registration__box-form-block-label">
+                                        <span>Label #2</span>
+                                        <input type="tel" name="tel" required />
+                                    </label>
+                                    <label class="registration__box-form-block-label">
+                                        <span>Label #2</span>
+                                        <input type="text" name="text" required />
+                                    </label>
+                                </div>
+                                <div class="registration__box-form-block">
+                                    <label class="registration__box-form-block-label">
+                                        <span>Label #3</span>
+                                        <input type="password" name="password" required />
+                                    </label>
+                                    <label class="registration__box-form-block-label">
+                                        <span>Label #3</span>
+                                        <input type="password" name="password" required />
+                                    </label>
+                                </div>
+                            </div>                            
+                            
+                            <button class="registration__box-form-button" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="registration__info">
+                        <p class="registration__info-text">Lorem ipsum sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et</p>
+                        <p class="registration__info-tip">Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <button class="registration__info-button" type="submit">More</button>
+                    </div>
                 </div>
             </section>            
-            <!-- Особености -->
+            <!-- Секция -->
             <section class="specifics">
                 <div class="container">
                     <ul class="specifics__list">
                         <li>
-                            <div class="specifics__icon">                        
-                                <svg width="70" height="70">
-                                    <use href="./img/icons.svg#icon-antenna"></use>
-                                </svg>
+                            <div class="specifics__box">
                             </div>    
-                            <h3 class="specifics__title">Внимание к деталям</h3>
-                            <p class="specifics__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                            <h3 class="specifics__title">Lorem ipsum dolor sit</h3>
+                            <p class="specifics__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quam perferendis facilis exercitationem!</p>
                         </li>
                         <li>
-                            <div class="specifics__icon">
-                                <svg width="70" height="70">
-                                    <use href="./img/icons.svg#icon-clock"></use>
-                                </svg>
+                            <div class="specifics__box">
                             </div>    
-                            <h3 class="specifics__title">Пунктуальность</h3>
-                            <p class="specifics__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                            <h3 class="specifics__title">Lorem ipsum dolor sit</h3>
+                            <p class="specifics__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quam perferendis facilis exercitationem!</p>
                         </li>
                         <li>
-                            <div class="specifics__icon">
-                                <svg width="70" height="70">
-                                    <use href="./img/icons.svg#icon-diagram"></use>
-                                </svg>
+                            <div class="specifics__box">
                             </div>    
-                            <h3 class="specifics__title">Планирование</h3>
-                            <p class="specifics__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                        </li>
-                        <li>
-                            <div class="specifics__icon">
-                                <svg width="70" height="70">
-                                    <use href="./img/icons.svg#icon-astronaut"></use>
-                                </svg>
-                            </div>
-                            <h3 class="specifics__title">Современные технологии</h3>
-                            <p class="specifics__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                            <h3 class="specifics__title">Lorem ipsum dolor sit</h3>
+                            <p class="specifics__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quam perferendis facilis exercitationem!</p>
                         </li>
                     </ul>
                 </div>
             </section>
-            <!-- Чем мы занимаемся -->
-            <section class="business">
+            <!-- Секция -->
+            <section class="more">
                 <div class="container">
-                    <h2 class="title">Чем мы занимаемся</h2>
-                    <ul class="business__list">
-                        <li class="business__roster">
-                            <img src="img/box1.jpg" alt="Написания кода" width="370">
-                            <div class="business__roster-block">
-                                <h4 class="business__roster-text">Десктопные приложения</h4>
-                            </div>
-                        </li>
-                        <li class="business__roster">
-                            <img src="img/box2.jpg" alt="Мониторинг" width="370">
-                            <div class="business__roster-block">
-                                <h4 class="business__roster-text">Мобильные приложения</h4>
-                            </div>
-                        </li>
-                        <li class="business__roster">
-                            <img src="img/box3.jpg" alt="Рабочая среда" width="370">
-                            <div class="business__roster-block">
-                                <h4 class="business__roster-text">Дизайнерские решения</h4>
-                            </div>
-                        </li>                
+                    <ul class="more__list">
+                        <li class="more__roster"></li>
+                        <li class="more__roster"></li>
+                        <li class="more__roster"></li>   
+                        <li class="more__roster"></li>
+                        <div class="more__list-box">
+                            <li class="more__roster"></li>
+                            <li class="more__roster"></li>
+                            <li class="more__roster"></li>   
+                            <li class="more__roster"></li> 
+                            <li class="more__roster"></li>
+                            <li class="more__roster"></li>
+                            <li class="more__roster"></li>   
+                            <li class="more__roster"></li>
+                        </div>               
                     </ul>
                 </div>
             </section>
-            <!-- Наша команда -->
+            <!-- Секция -->
             <section class="team">
                 <div class="container">
                     <h2 class="title">Наша команда</h2>
@@ -292,44 +305,6 @@
                             </div>
                         </li>                
                     </ul>
-                </div>
-            </section>
-            <!-- Клиенты -->
-            <section class="client">
-                <div class="container">
-                    <h2 class="title">Постоянные клиенты</h2>
-                    <div class="client__box">
-                        <a href="" class="client__box-link">                            
-                            <svg class="client__svg-link" width="106" height="60">
-                                <use href="./img/icons.svg#icon-yaco"></use>
-                            </svg>                            
-                        </a>
-                        <a href="" class="client__box-link">                            
-                            <svg class="client__svg-link" width="106" height="60">
-                                <use href="./img/icons.svg#icon-tagline-here"></use>
-                            </svg>                            
-                        </a>
-                        <a href="" class="client__box-link">                            
-                            <svg class="client__svg-link" width="106" height="60">
-                                <use href="./img/icons.svg#icon-company"></use>
-                            </svg>                            
-                        </a>
-                        <a href="" class="client__box-link">                            
-                            <svg class="client__svg-link" width="106" height="60">
-                                <use href="./img/icons.svg#icon-foster"></use>
-                            </svg>                           
-                        </a>
-                        <a href="" class="client__box-link">                            
-                            <svg class="client__svg-link" width="106" height="60">
-                                <use href="./img/icons.svg#icon-brand"></use>
-                            </svg>                            
-                        </a>
-                        <a href="" class="client__box-link">                            
-                            <svg class="client__svg-link" width="106" height="60">
-                                <use href="./img/icons.svg#icon-tag-line"></use>
-                            </svg>                            
-                        </a>
-                    </div>
                 </div>
             </section>
             <!-- Модальное окно -->
