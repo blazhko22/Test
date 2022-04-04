@@ -9,6 +9,12 @@
     display: flex;
     justify-content: end;
     width: 480px;
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+    @media screen and (min-width: 980px) {
+        width: 980px;
+    }
 }
 .header__language-list {
     font-family: Arial, sans-serif;
@@ -18,6 +24,7 @@
     padding: 7px 10px;
     border-radius: 3px;
     cursor: pointer;
+    
     &:last-child {
         margin-right: 0;
     }

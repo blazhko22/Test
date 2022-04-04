@@ -1,6 +1,10 @@
 .header__box {
     width: 100%;
     padding: 20px 0;
+
+    @media screen and (min-width: 768px) {
+        position: relative;
+    }
 }
 .header__link-logo {
     display: flex;
@@ -17,11 +21,10 @@
     text-decoration: none;
     cursor: pointer;
 
-    // @media screen and (min-width: 1200px) {
-    //     font-size: 26px;
-    //     line-height: 1.2;
-    // }
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        width: 300px;
+        top: -30px;
+        border-radius: 300px 288px 300px 300px / 100px 100px 100px 100px;
+    }
 }
-// .header__logo-color {
-//     color: $extra-color;
-// }

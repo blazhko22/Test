@@ -1,28 +1,41 @@
 .header__box-list {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 310px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 .header__box-item {
     display: flex;
     align-items: center;
     font-family: Roboto, sans-serif;
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: normal;
     text-transform: uppercase;
+    cursor: pointer;
+    
     &:last-child {
         margin-bottom: 0;
     }
     &:hover {
         color: $hover-color;
     }
+
+    @media screen and (min-width: 768px) {
+        width: 203px;
+    }
 }
 .circle {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: $secondary-bg-color;
-    border-radius: 50px;
+    width: 17px;
+    height: 17px;
     margin-right: 10px;
 }

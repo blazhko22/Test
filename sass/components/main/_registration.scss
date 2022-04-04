@@ -1,12 +1,18 @@
 .registration__container {
   padding-top: 30px;
 }
-// .registration__box {
-//   display: flex;
-// }
-// .registration__box-form {
-
-// }
+@media screen and (min-width: 768px) {
+  .registration__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 30px 20px;
+    background-color: $hover-bg-color;
+  }
+  .registration__box {
+    width: 280px;
+  }
+}
 .registration__box-form-title {
   font-family: 'Arial';
 }
@@ -53,6 +59,10 @@
     height: 30px;
     border-color: $border-color;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 130px;
+  }
 }
 .registration__box-form-button {
   font-family: 'Arial Narrow';
@@ -71,6 +81,11 @@
   box-shadow: 5px 5px 5px rgba(54, 53, 53, 0.541);
   margin-top: 20px;
   border-radius: 5px;
+
+  @media screen and (min-width: 768px) {
+    width: 320px;
+    height: max-content;
+  }
 }
 .registration__info-text {
   font-family: 'Arial';
